@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f9ff;
+}
+
+header {
+    background: #040d5f;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: #000000;
+    border-radius: 5px;
+}
+
+
+.contenedor {
+    width: 75%;
+    max-width: 1000px;
+    margin: 50px auto;
+    margin-left: 300px;
+}
+
+.tarjeta {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #ccc;
+}
+
+.tarjeta h2 {
+    color: #000000;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.tarjeta p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+.submenu {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 240px;
+    height: 100vh;
+
+    background: #040d5f;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 100px 20px 20px;
+    gap: 15px;
+
+    box-shadow: 3px 0 10px #ccc;
+}
+
+
+.submenu a {
+    background: #e3f2fd;
+    color: #040d5f;
+
+    text-decoration: none;
+
+    padding: 18px;
+    text-align: center;
+
+    border-radius: 10px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.submenu a:hover {
+    background: #000000;
+    color: white;
+}
+
+.documento-pdf {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    }
+    .documento-pdf h2 {
+    color: #17365d;
+    margin-bottom: 15px;
+    }
+    .tarjeta-pdf {
+    background: #ffffff;
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    }
+    
+    .icono-pdf {
+    font-size: 55px;
+    margin-bottom: 15px;
+    }
+    .tarjeta-pdf h3 {
+    color: #17365d;
+    }
+    .botones-pdf {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+    }
+    .btn-pdf {
+    background: #1769aa;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    }
+    .btn-pdf:hover {
+    background: #104c7a;
+    }
+    .descargar {
+    background: #238653;
+    }
+    .descargar:hover {
+    background: #17613b;
+    }
+    
+footer {
+    background: #040d5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

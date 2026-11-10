@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8eaf6;
+    margin: 0;
+}
+
+header {
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #101010;
+    margin-top: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.menu a:hover {
+    background-color: #101010;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #101010;
+    list-style: none;
+    padding: 0;
+    min-width: 220px;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #aaa;
+}
+
+h2 {
+    color: #101010;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 13px;
+    background-color: #101010;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #101010;
+}
+
+footer {
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #222;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: black;
+    margin-top: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: black;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 220px;
+    list-style: none;
+    z-index: 10;
+}
+
+.submenu a {
+    padding: 12px;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.principal {
+    background-color: white;
+    padding: 60px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px white;
+}
+
+h2 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color:black;
+}
+
+.video-seccion {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.video-seccion h1 {
+    color: white
+    margin-bottom 15px;
+    font-size: 15px;
+}
+
+.video-seccion p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.contenedor-video {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor-video video {
+    display: block;
+    width: 100%;
+    height: auto;
+}

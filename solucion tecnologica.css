@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f2f1;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: black;
+    margin-top: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.menu a:hover {
+    background-color: black;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    list-style: none;
+    padding: 0;
+    min-width: 220px;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #aaa;
+}
+
+h2 {
+    color:black;
+}
+
+h3 {
+    color:black;
+    margin-top: 25px;
+}
+
+li {
+    margin: 10px;
+}
+
+footer {
+    background-color: #00695c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
